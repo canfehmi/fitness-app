@@ -1,0 +1,85 @@
+{
+  "common": {
+    "continue": "Continue",
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry"
+  },
+  "onboarding": {
+    "goal": {
+      "title": "What's your goal?",
+      "subtitle": "Choose your goal to create a personalized program",
+      "lose_weight": "Lose Weight",
+      "lose_weight_desc": "Reach your ideal weight by burning fat",
+      "stay_fit": "Stay Fit",
+      "stay_fit_desc": "Maintain and improve your fitness"
+    },
+    "set_selection": {
+      "title": "Your daily program",
+      "subtitle": "Choose a workout plan that fits you",
+      "15min_1set": "15 min / 1 Set per day",
+      "30min_1set": "30 min / 1 Set per day",
+      "15min_2set": "15 min / 2 Sets per day",
+      "30min_2set": "30 min / 2 Sets per day"
+    },
+    "body_info": {
+      "title": "Your body info",
+      "subtitle": "Enter your details for better results",
+      "current_weight": "Current Weight (kg)",
+      "target_weight": "Target Weight (kg)",
+      "height": "Height (cm)"
+    }
+  },
+  "auth": {
+    "login": "Log In",
+    "register": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "full_name": "Full Name",
+    "google_login": "Continue with Google",
+    "have_account": "Already have an account?",
+    "no_account": "Don't have an account?",
+    "forgot_password": "Forgot Password"
+  },
+  "home": {
+    "greeting_morning": "Good morning",
+    "greeting_afternoon": "Good afternoon",
+    "greeting_evening": "Good evening",
+    "todays_workout": "Today's Workout",
+    "start_workout": "Start Workout",
+    "completed_today": "Completed today 🎉",
+    "rest_day": "Rest day today"
+  },
+  "workout": {
+    "exercise": "Exercise",
+    "rest": "Rest",
+    "round": "Set",
+    "of": "/",
+    "completed": "Congratulations!",
+    "completed_desc": "You completed the workout",
+    "pause": "Pause",
+    "resume": "Resume",
+    "finish": "Finish"
+  },
+  "progress": {
+    "title": "Progress",
+    "weight": "Weight Tracking",
+    "workouts": "Workouts",
+    "streak": "Streak",
+    "days": "days",
+    "log_weight": "Add Weight",
+    "total_workouts": "Total Workouts",
+    "this_week": "This Week"
+  },
+  "profile": {
+    "title": "Profile",
+    "settings": "Settings",
+    "language": "Language",
+    "sign_out": "Sign Out",
+    "goal": "Goal",
+    "plan": "Plan"
+  }
+}

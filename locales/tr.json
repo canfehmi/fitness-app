@@ -1,0 +1,85 @@
+{
+  "common": {
+    "continue": "Devam Et",
+    "back": "Geri",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar Dene"
+  },
+  "onboarding": {
+    "goal": {
+      "title": "Hedefiniz ne?",
+      "subtitle": "Size özel program oluşturmak için hedefinizi seçin",
+      "lose_weight": "Kilo Vermek",
+      "lose_weight_desc": "Yağ yakarak ideal kilona ulaş",
+      "stay_fit": "Formda Kalmak",
+      "stay_fit_desc": "Kondisyonunu koru ve geliştir"
+    },
+    "set_selection": {
+      "title": "Günlük programınız",
+      "subtitle": "Size uygun antrenman planını seçin",
+      "15min_1set": "Günde 15 dk / 1 Set",
+      "30min_1set": "Günde 30 dk / 1 Set",
+      "15min_2set": "Günde 15 dk / 2 Set",
+      "30min_2set": "Günde 30 dk / 2 Set"
+    },
+    "body_info": {
+      "title": "Vücut bilgileriniz",
+      "subtitle": "Daha iyi sonuçlar için bilgilerinizi girin",
+      "current_weight": "Mevcut Kilo (kg)",
+      "target_weight": "Hedef Kilo (kg)",
+      "height": "Boy (cm)"
+    }
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "email": "E-posta",
+    "password": "Şifre",
+    "full_name": "Ad Soyad",
+    "google_login": "Google ile Devam Et",
+    "have_account": "Zaten hesabınız var mı?",
+    "no_account": "Hesabınız yok mu?",
+    "forgot_password": "Şifremi Unuttum"
+  },
+  "home": {
+    "greeting_morning": "Günaydın",
+    "greeting_afternoon": "İyi günler",
+    "greeting_evening": "İyi akşamlar",
+    "todays_workout": "Bugünkü Antrenman",
+    "start_workout": "Antrenmana Başla",
+    "completed_today": "Bugün tamamlandı 🎉",
+    "rest_day": "Bugün dinlenme günü"
+  },
+  "workout": {
+    "exercise": "Hareket",
+    "rest": "Dinlen",
+    "round": "Set",
+    "of": "/",
+    "completed": "Tebrikler!",
+    "completed_desc": "Antrenmanı tamamladın",
+    "pause": "Duraklat",
+    "resume": "Devam Et",
+    "finish": "Bitir"
+  },
+  "progress": {
+    "title": "İlerleme",
+    "weight": "Kilo Takibi",
+    "workouts": "Antrenmanlar",
+    "streak": "Seri",
+    "days": "gün",
+    "log_weight": "Kilo Ekle",
+    "total_workouts": "Toplam Antrenman",
+    "this_week": "Bu Hafta"
+  },
+  "profile": {
+    "title": "Profil",
+    "settings": "Ayarlar",
+    "language": "Dil",
+    "sign_out": "Çıkış Yap",
+    "goal": "Hedef",
+    "plan": "Plan"
+  }
+}
