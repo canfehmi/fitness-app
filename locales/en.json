@@ -6,7 +6,16 @@
     "cancel": "Cancel",
     "loading": "Loading...",
     "error": "An error occurred",
+    "error_title": "Error",
+    "success_title": "Done",
+    "saved": "Saved",
+    "weight_saved": "Your weight entry was saved.",
     "retry": "Retry"
+  },
+  "tabs": {
+    "home": "Home",
+    "progress": "Progress",
+    "profile": "Profile"
   },
   "onboarding": {
     "goal": {
@@ -18,8 +27,14 @@
       "stay_fit_desc": "Maintain and improve your fitness"
     },
     "set_selection": {
-      "title": "Your daily program",
-      "subtitle": "Choose a workout plan that fits you",
+      "title": "How much time can you give each day?",
+      "subtitle": "No math — pick the effort level that fits you.",
+      "tier_easy": "Easy (15 min)",
+      "tier_easy_hint": "Short sessions, great for building the habit",
+      "tier_medium": "Medium (30 min)",
+      "tier_medium_hint": "Balanced pace, steady progress",
+      "tier_hard": "Hard (60 min)",
+      "tier_hard_hint": "Intense — when you're ready for more",
       "15min_1set": "15 min / 1 Set per day",
       "30min_1set": "30 min / 1 Set per day",
       "15min_2set": "15 min / 2 Sets per day",
@@ -27,7 +42,16 @@
     },
     "body_info": {
       "title": "Your body info",
-      "subtitle": "Enter your details for better results",
+      "subtitle": "These details personalize your plan and clarify expected pace and time.",
+      "personalized_title": "We're building a program tailored to you",
+      "preview_fat_label": "Estimated weekly fat loss",
+      "preview_fat_generic": "~0.3–0.7 kg · sustainable pace (estimate)",
+      "preview_fat_range": "~{{min}}–{{max}} kg / week (estimate)",
+      "preview_stay_fit_line": "Fitness and conditioning focused plan",
+      "preview_maintain_line": "Maintenance or goal adjustment focus",
+      "preview_duration_label": "Suggested daily duration",
+      "preview_duration_value": "~{{minutes}} min / day",
+      "preview_duration_fallback": "Based on the plan you picked",
       "current_weight": "Current Weight (kg)",
       "target_weight": "Target Weight (kg)",
       "height": "Height (cm)"
@@ -51,7 +75,18 @@
     "todays_workout": "Today's Workout",
     "start_workout": "Start Workout",
     "completed_today": "Completed today 🎉",
-    "rest_day": "Rest day today"
+    "rest_day": "Rest day today",
+    "workout_value": {
+      "calories_label": "Estimated calories",
+      "calories_value": "~{{kcal}} kcal",
+      "goal_label": "Goal",
+      "goal_lose_weight": "Fat loss",
+      "goal_stay_fit": "Fitness & conditioning",
+      "difficulty_label": "Difficulty",
+      "level_beginner": "Beginner",
+      "level_intermediate": "Intermediate",
+      "level_advanced": "Advanced"
+    }
   },
   "workout": {
     "exercise": "Exercise",
@@ -60,6 +95,8 @@
     "of": "/",
     "completed": "Congratulations!",
     "completed_desc": "You completed the workout",
+    "visual_hint": "Keep good form; mind your alignment.",
+    "next_preview": "Up next",
     "pause": "Pause",
     "resume": "Resume",
     "finish": "Finish"
@@ -72,7 +109,14 @@
     "days": "days",
     "log_weight": "Add Weight",
     "total_workouts": "Total Workouts",
-    "this_week": "This Week"
+    "this_week": "This Week",
+    "empty_state_message": "Do your first workout — you'll see your progress here.",
+    "empty_state_cta": "Start workout"
+  },
+  "validation": {
+    "height_range": "Please enter a valid height. Height must be between 120 and 230 cm.",
+    "weight_range": "Please enter a valid weight. Weight must be between 30 and 300 kg.",
+    "lose_weight_target": "Your target weight can't be equal to or higher than your current weight on a weight-loss plan. Lower your target or switch your goal to Stay Fit."
   },
   "profile": {
     "title": "Profile",

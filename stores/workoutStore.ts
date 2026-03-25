@@ -31,9 +31,11 @@ interface WorkoutState {
   pauseResume: () => void
   completeSession: () => void
   resetSession: () => void
+  lastCompletedAt: string | null
 }
 
 export const useWorkoutStore = create<WorkoutState>((set, get) => ({
+  lastCompletedAt: null,
   session: null,
 
   startSession: (workoutId, workoutTitle, exercises) =>
@@ -128,9 +130,10 @@ export const useWorkoutStore = create<WorkoutState>((set, get) => ({
     })),
 
   completeSession: () =>
-    set((s) => ({
-      session: s.session ? { ...s.session, isCompleted: true, isRunning: false } : null,
-    })),
+  set((s) => ({
+    session: s.session ? { ...s.session, isCompleted: true, isRunning: false } : null,
+    lastCompletedAt: new Date().toISOString(),
+  })),
 
   resetSession: () => set({ session: null }),
 }))

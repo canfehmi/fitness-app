@@ -18,5 +18,7 @@ export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey, {
     autoRefreshToken: true,
     persistSession: true,
     detectSessionInUrl: false,
+    // PKCE + mobil derin bağlantıda kod değişimi sık takılır; implicit fragment token daha güvenilir.
+    flowType: "implicit",
   },
 })

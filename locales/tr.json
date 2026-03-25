@@ -6,28 +6,52 @@
     "cancel": "İptal",
     "loading": "Yükleniyor...",
     "error": "Bir hata oluştu",
+    "error_title": "Hata",
+    "success_title": "Tamam",
+    "saved": "Kaydedildi",
+    "weight_saved": "Kilo kaydın eklendi.",
     "retry": "Tekrar Dene"
+  },
+  "tabs": {
+    "home": "Ana Sayfa",
+    "progress": "İlerleme",
+    "profile": "Profil"
   },
   "onboarding": {
     "goal": {
-      "title": "Hedefiniz ne?",
-      "subtitle": "Size özel program oluşturmak için hedefinizi seçin",
+      "title": "Hedefin ne?",
+      "subtitle": "Sana en uygun planı hazırlamak için hedefini seç.",
       "lose_weight": "Kilo Vermek",
-      "lose_weight_desc": "Yağ yakarak ideal kilona ulaş",
+      "lose_weight_desc": "Sürdürülebilir yağ kaybıyla hedef kilona yaklaş",
       "stay_fit": "Formda Kalmak",
-      "stay_fit_desc": "Kondisyonunu koru ve geliştir"
+      "stay_fit_desc": "Kondisyonunu koru, gücünü dengeli artır"
     },
     "set_selection": {
-      "title": "Günlük programınız",
-      "subtitle": "Size uygun antrenman planını seçin",
+      "title": "Günlük ne kadar süre ayırabilirsin?",
+      "subtitle": "Sana uygun tempoyu seç, programın buna göre şekillensin.",
+      "tier_easy": "Kolay (15 dk)",
+      "tier_easy_hint": "Kısa ve sürdürülebilir başlangıç",
+      "tier_medium": "Orta (30 dk)",
+      "tier_medium_hint": "Dengeli tempo, istikrarlı gelişim",
+      "tier_hard": "Zor (60 dk)",
+      "tier_hard_hint": "Yüksek tempo; hazır hissediyorsan ideal",
       "15min_1set": "Günde 15 dk / 1 Set",
       "30min_1set": "Günde 30 dk / 1 Set",
       "15min_2set": "Günde 15 dk / 2 Set",
       "30min_2set": "Günde 30 dk / 2 Set"
     },
     "body_info": {
-      "title": "Vücut bilgileriniz",
-      "subtitle": "Daha iyi sonuçlar için bilgilerinizi girin",
+      "title": "Vücut Bilgilerin",
+      "subtitle": "Bu bilgilerle planın daha isabetli olur; ilerlemeni daha net takip ederiz.",
+      "personalized_title": "Koçunun kişisel planı için kısa özet",
+      "preview_fat_label": "Haftalık tahmini yağ kaybı",
+      "preview_fat_generic": "~0,3–0,7 kg / hafta · sürdürülebilir tempo",
+      "preview_fat_range": "~{{min}}–{{max}} kg / hafta · tahmini aralık",
+      "preview_stay_fit_line": "Kondisyon ve form odaklı plan",
+      "preview_maintain_line": "Kilo koruma / hedefe göre ayarlama",
+      "preview_duration_label": "Önerilen günlük süre",
+      "preview_duration_value": "~{{minutes}} dk / gün",
+      "preview_duration_fallback": "Seçtiğin plana göre",
       "current_weight": "Mevcut Kilo (kg)",
       "target_weight": "Hedef Kilo (kg)",
       "height": "Boy (cm)"
@@ -48,18 +72,31 @@
     "greeting_morning": "Günaydın",
     "greeting_afternoon": "İyi günler",
     "greeting_evening": "İyi akşamlar",
-    "todays_workout": "Bugünkü Antrenman",
-    "start_workout": "Antrenmana Başla",
-    "completed_today": "Bugün tamamlandı 🎉",
-    "rest_day": "Bugün dinlenme günü"
+    "todays_workout": "Bugünün Antrenmanı",
+    "start_workout": "Seansı Başlat",
+    "completed_today": "Bugünkü seans tamamlandı",
+    "rest_day": "Bugün dinlenme günü",
+    "workout_value": {
+      "calories_label": "Tahmini kalori",
+      "calories_value": "~{{kcal}} kcal",
+      "goal_label": "Hedef",
+      "goal_lose_weight": "Yağ yakımı",
+      "goal_stay_fit": "Form & kondisyon",
+      "difficulty_label": "Zorluk",
+      "level_beginner": "Başlangıç",
+      "level_intermediate": "Orta",
+      "level_advanced": "İleri"
+    }
   },
   "workout": {
     "exercise": "Hareket",
     "rest": "Dinlen",
     "round": "Set",
     "of": "/",
-    "completed": "Tebrikler!",
-    "completed_desc": "Antrenmanı tamamladın",
+    "completed": "Seans Tamamlandı",
+    "completed_desc": "Planladığın antrenmanı başarıyla bitirdin",
+    "visual_hint": "Formunu koru; göğüs/kalça hizana dikkat et.",
+    "next_preview": "Sıradaki hareket",
     "pause": "Duraklat",
     "resume": "Devam Et",
     "finish": "Bitir"
@@ -70,9 +107,16 @@
     "workouts": "Antrenmanlar",
     "streak": "Seri",
     "days": "gün",
-    "log_weight": "Kilo Ekle",
+    "log_weight": "Kilo Kaydet",
     "total_workouts": "Toplam Antrenman",
-    "this_week": "Bu Hafta"
+    "this_week": "Bu Hafta",
+    "empty_state_message": "İlk seansınla birlikte ilerleme hikayen burada görünür olacak.",
+    "empty_state_cta": "İlk antrenmanına başla"
+  },
+  "validation": {
+    "height_range": "Lütfen geçerli bir boy girin. Boy değeri 120 ile 230 cm arasında olmalıdır.",
+    "weight_range": "Lütfen geçerli bir kilo girin. Kilo değeri 30 ile 300 kg arasında olmalıdır.",
+    "lose_weight_target": "Kilo verme planında hedef kilon, mevcut kilondan yüksek veya eşit olamaz. Hedef kilonu düşür ya da planını Formda Kal olarak değiştir."
   },
   "profile": {
     "title": "Profil",
